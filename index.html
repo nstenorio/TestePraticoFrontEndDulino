@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DULINO - Educação para a Vida!</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="shortcut icon" href="/assets/img/DULINO_LOGO_TITLE.png">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu menu-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="https://dulino.com.br/" target="_blank"><img src="assets/img/LOGO-DULINO.png" alt="DULINO - Educação para a Vida!" class="logo-top"></a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="https://dulino.com.br/por-que-dulino/" target="_blank"><b>por que Dulino?</b></a></li>
+          <li><a href="https://dulino.com.br/dulino-lab/" target="_blank"><b>nossas soluções</b></a></li>
+          <li><a href="#tvdulino">TV Dulino</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="https://www.linkedin.com/company/dulino/" target="_blank"><img src="assets/img/linkedin-logo.png" alt="DULINO - LINKEDIN"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-img">
+        <img src="assets/img/nova-img-home.png" alt="A Educação para a vida na era digital.">
+      </div>
+      <div class="intro-text-content">
+        <h2>A Educação para a vida na era digital</h2>
+        <p>Educar as novas mentes da era digital é um grande desafio. Nossos estudantes sentem necessidade de saber mais sobre o mundo em que vivem e, principalmente, de interagir de forma ativa nesse contexto, não sendo apenas consumidores de informações ou soluções já desenvolvidas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tvdulino" class="white-bg section">
+    <div class="main-content grid-one-content">
+      <p class="grid-description"></p>
+
+      <div class="grid">
+        <article>
+          <h3>TV Dulino</h3>
+          <p>Aqui você encontra vídeos de nossas ações, projetos e serviços, conhece melhor a Dulino e o que a gente faz.<br><br>
+          <a href="https://dulino.com.br/dulino-tv/" target="_blank" class="tv-dulino-link">aperte o play e vem com a gente!</a></p>
+        </article>
+
+        <article>
+          <img src="assets/img/img-tvdulino-hover.png" alt="TV Dulino" class="tv-dulino">
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="intro main-bg section">
+    <div class="main-content">
+      <div class="intro-text-content">
+        <h2>entre em contato</h2>
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+
+          <div class="form-group">
+            <label for="first-name">primeiro nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">último nome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">mensagem</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">enviar mensagem</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p>Desenvolvido Por Fernando Tenório</p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>

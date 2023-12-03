@@ -1,0 +1,49 @@
+
+.main-bg {
+    background-image: url('../img/background_svg.png');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+  }
+  
+  .menu-bg {
+    background-image: url(../img/background2_svg.png);
+    color: var(--secondary-color);
+  }
+
+  .white-bg {
+    background-image: url(../img/background3_svg.png);
+    color: var(--secondary-color);
+  }
+  
+  .main-content {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+    margin-top: 1rem;
+  }
+  
+  .section {
+    min-height: 100vh;
+  }
+  
+  .menu-spacing {
+    height: 65px;
+  }
+  
+  body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .logo-top {
+    width: 180px;
+  }
+
+  .tv-dulino {
+    width: 80%;
+  }
+
+  .tv-dulino-link {
+    color: var(--white-color);
+  }
